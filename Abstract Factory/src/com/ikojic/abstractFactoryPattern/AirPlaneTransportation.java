@@ -2,20 +2,20 @@ package com.ikojic.abstractFactoryPattern;
 
 
 /**
- * A class that represents a truck transportation type. This class implements
+ * A class that represents a airplane transportation type. This class implements
  * the TransportationType interface and provides a concrete implementation for
  * the performTransportation method.
  */
-public class TruckTransportation implements TransportationType {
+public class AirPlaneTransportation implements TransportationType {
 	
 	/**
-	 * Performs the truck transportation operation. This method prints a message
-	 * indicating that truck transportation is being performed.
+	 * Performs the airplane transportation operation. This method prints a message
+	 * indicating that airplane transportation is being performed.
 	 */
 	@Override
 	public void performTranportation() {
 		
-		System.out.println( getClass().getSimpleName() + " performs transportation..." );
+		System.out.println( getClass().getSimpleName() + " performs tranportation..." );
 		
 	}
 	
@@ -29,7 +29,7 @@ public class TruckTransportation implements TransportationType {
 	@Override
 	public String toString() {
 		
-		return "TruckTransportation";
+		return "AeroPlaneTransportation";
 		
 	}
 	
