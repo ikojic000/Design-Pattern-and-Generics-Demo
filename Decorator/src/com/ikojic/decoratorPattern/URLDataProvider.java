@@ -9,10 +9,18 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 
+/**
+ * A class that provides data from a URL using the DataSource instance.
+ */
 public class URLDataProvider implements DataProvider {
 	
 	private DataSource dataSource;
 	
+	/**
+	 * Constructs a URLDataProvider with the specified DataSource instance.
+	 *
+	 * @param dataSource the DataSource instance used to read data.
+	 */
 	public URLDataProvider( DataSource dataSource ) {
 		
 		this.dataSource = dataSource;

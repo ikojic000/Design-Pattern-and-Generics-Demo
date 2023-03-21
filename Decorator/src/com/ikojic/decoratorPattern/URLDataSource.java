@@ -8,6 +8,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 
+/**
+ * A class representing a data source that can write and read data to/from a
+ * URL.
+ */
 public class URLDataSource implements DataSource {
 	
 	@Override

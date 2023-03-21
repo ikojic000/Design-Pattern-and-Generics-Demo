@@ -8,6 +8,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 
+/**
+ * A class representing a data source that can write and read data to/from a
+ * file on the local file system.
+ */
 public class FileDataSource implements DataSource {
 	
 	@Override
