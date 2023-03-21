@@ -1,6 +1,10 @@
 package com.ikojic.strategyPattern;
 
 
+/**
+ * This class represents an App that demonstrates the use of different division
+ * strategies
+ */
 public class App {
 	
 	public static void main( String[] args ) {
