@@ -1,5 +1,5 @@
 
-# Java Design Patterns Demo Projects
+# Java Design Patterns and Generics Demo Projects
 
 This repository contains demo projects showcasing the implementation of different design patterns in Java, including:
 
