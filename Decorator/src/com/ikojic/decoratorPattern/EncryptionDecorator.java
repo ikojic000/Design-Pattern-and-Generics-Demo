@@ -37,18 +37,16 @@ public class EncryptionDecorator extends DataSourceDecorator {
 	@Override
 	public void writeData( String data , File file ) {
 		
-		// Encode the data string using Base64 encoding
+//		Encode the data string using Base64 encoding
 		byte[] encryptedData = Base64.getEncoder().encode( data.getBytes( StandardCharsets.UTF_8 ) );
 		
-		// Convert the byte array to a string using UTF-8 encoding
+//		Convert the byte array to a string using UTF-8 encoding
 		String encryptedDataString = new String( encryptedData , StandardCharsets.UTF_8 );
 		
-		// Print a message indicating that encrypted data is being written to the file
+//		Print a message indicating that encrypted data is being written to the file
 		System.out.println( "Writing encrypted data to " + file.getPath() );
 		
-		// Pass the encoded data string to the writeData() method of the wrapped
-		// DataSource object
-		// to write the data to a file
+//		Pass the encoded data string to the writeData() method of the wrapped DataSource object to write the data to a file
 		dataSource.writeData( encryptedDataString , file );
 		
 	}
